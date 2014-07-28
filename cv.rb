@@ -54,6 +54,7 @@ module CV
 
 
     def self.frameworks
+      # These are the ones I like to work with, have used others in the past such as CakePHP, Word Press, OS Commerce, Joomla etc
       ['Sinatra', 'Rails', 'AngularJS', 'ExpressJS']
 
     end
@@ -89,7 +90,33 @@ module CV
     end
 
     def frameworks
-      ['RSpec', 'FactoryGirl', 'SimpleCov', 'Karma', 'Protractor']
+      ['RSpec', 'FactoryGirl', 'SimpleCov', 'Karma', 'Protractor', 'Istanbul']
+
+    end
+
+  end
+
+  class Experience
+
+    def self.roles
+      [{
+        company:  'Shift72.com',
+        industry: 'Video On Demand',
+        roles:    'Senior Web Dev',
+        when:     {
+          from: 'Feb 2013',
+          to: Time.now
+        }
+      },
+      {
+        company:  'TestScreening.com',
+        industry: 'Video Audience Metrics',
+        roles:    'Founder Senior Web Dev',
+        when:     {
+          from: 'July 2013',
+          to: Time.now
+        }
+      }]
 
     end
 
@@ -99,11 +126,10 @@ module CV
 
   end
 
-  class Experience
-
-  end
-
   class Contact
+
+
+
 
   end
 
@@ -136,8 +162,7 @@ open('README.md', 'a') { |f|
 
   f.puts ''
   f.puts '## Message Queues'
-  f.puts "`#{CV::MadSkills.message_queues}`"
-
+  f.puts "`#{CV::MadSkills.message_queues}`, its the best one right?"
 
   testing = CV::Testing.new
   f.puts ''
@@ -146,4 +171,9 @@ open('README.md', 'a') { |f|
   f.puts ''
   f.puts "`#{testing.frameworks.join(', ')}`"
 
+  f.puts ''
+  f.puts '## Experience'
+  f.puts "```json"
+  f.puts CV::Experience.roles.to_json
+  f.puts "```"
 }

@@ -23,9 +23,14 @@
 `Postgres 9.3, Redis`
 
 ## Message Queues
-`RabbitMQ`
+`RabbitMQ`, its the best one right?
 
 ## Testing
 `As close to 100% test coverage as possible is my mantra, and I am pretty pedantic about coding conventions.`
 
-`RSpec, FactoryGirl, SimpleCov, Karma, Protractor`
+`RSpec, FactoryGirl, SimpleCov, Karma, Protractor, Istanbul`
+
+## Experience
+```json
+[{"company":"Shift72.com","industry":"Video On Demand","roles":"Senior Web Dev","when":{"from":"Feb 2013","to":"2014-07-28 23:16:49 +0100"}},{"company":"TestScreening.com","industry":"Video Audience Metrics","roles":"Founder Senior Web Dev","when":{"from":"July 2013","to":"2014-07-28 23:16:49 +0100"}}]
+```
