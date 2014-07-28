@@ -123,14 +123,11 @@ module CV
   end
 
   class DevOps
-
-  end
-
-  class Contact
-
-
-
-
+    # TODO - (LB 28/7/14)
+    # I am learning a lot about Dev Ops these days
+    # What with the 12 Factor App, SOA, message queues, 0% downtime there is a lot to learn.
+    # Suffice to say I am using Jenkins and Drone.io for Continuous Integration and Deployment
+    # I am also learning more and more about Docker and like it the more I see it
   end
 
 end
@@ -148,7 +145,7 @@ open('README.md', 'a') { |f|
   f.puts '# Skills'
 
   f.puts '## Languages'
-  f.puts "```javascript"
+  f.puts "```json"
   f.puts JSON.pretty_generate(CV::MadSkills.languages)
   f.puts "```"
   f.puts ''
@@ -173,7 +170,16 @@ open('README.md', 'a') { |f|
 
   f.puts ''
   f.puts '## Experience'
-  f.puts "```javascript"
+  f.puts "```json"
   f.puts JSON.pretty_generate(CV::Experience.roles)
   f.puts "```"
+
+  f.puts ''
+  f.puts '## Dev Ops'
+  f.puts 'Please read the TODO notes in the code'
+
+  f.puts ''
+  f.puts '## Contact'
+  f.puts "`me at luke byrne dot com` will find me"
+  f.puts "`@melukebyrne` via Twitter"
 }

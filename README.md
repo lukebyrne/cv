@@ -12,7 +12,7 @@
 
 # Skills
 ## Languages
-```javascript
+```json
 {
   "expert": [
     "ruby",
@@ -42,7 +42,7 @@
 `RSpec, FactoryGirl, SimpleCov, Karma, Protractor, Istanbul`
 
 ## Experience
-```javascript
+```json
 [
   {
     "company": "Shift72.com",
@@ -50,7 +50,7 @@
     "roles": "Senior Web Dev",
     "when": {
       "from": "Feb 2013",
-      "to": "2014-07-28 23:19:51 +0100"
+      "to": "2014-07-28 23:26:41 +0100"
     }
   },
   {
@@ -59,8 +59,15 @@
     "roles": "Founder Senior Web Dev",
     "when": {
       "from": "July 2013",
-      "to": "2014-07-28 23:19:51 +0100"
+      "to": "2014-07-28 23:26:41 +0100"
     }
   }
 ]
 ```
+
+## Dev Ops
+Please read the TODO notes in the code
+
+## Contact
+`me at luke byrne dot com` will find me
+`@melukebyrne` via Twitter
