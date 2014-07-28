@@ -5,8 +5,14 @@ module CV
   class Goal
 
     def self.output
-      text  = 'My goal is to secure a short to medium term contract working in either AngularJS, Sinatra / Ruby on Rails. '
-      text += 'My preference is for greenfield projects with a Service Orientated Architecture (SOA).'
+      <<-END
+      My goal is to secure a short to medium term contract working in either AngularJS, Sinatra / Ruby on Rails.
+
+      My preference is for greenfield projects with a Service Orientated Architecture (SOA).
+
+      My preferreed location is either Melbourne, Brighton or Singapore.
+
+      END
 
     end
 
@@ -65,31 +71,66 @@ module CV
 
   end
 
+  class Testing
+
+    def mantra
+      'As close to 100% test coverage as possible is my mantra, and I am pretty pedantic about coding conventions.'
+
+    end
+
+    def frameworks
+      ['RSpec', 'FactoryGirl', 'SimpleCov', 'Karma', 'Protractor']
+
+    end
+
+  end
+
+  class DevOps
+
+  end
+
+  class Experience
+
+  end
+
+  class Contact
+
+  end
 
 end
 
-# Run this script, copy and paste the output and save as markdown to read
-puts '# Goal'
-puts CV::Goal.output
-puts ''
+# Clean out the README.md
+File.open('README.md', 'w') {|file| file.truncate(0) }
 
-puts '# Skills'
+open('README.md', 'a') { |f|
 
-puts '## Languages'
-puts "`#{CV::MadSkills.languages}`"
-puts ''
+  f.puts '# Goal'
+  f.puts CV::Goal.output
+  f.puts ''
 
-puts '## Frameworks'
-puts "`#{CV::MadSkills.frameworks}`"
-puts ''
+  f.puts '# Skills'
 
-puts '## Datastores'
-puts "`#{CV::MadSkills.datastores}`"
+  f.puts '## Languages'
+  f.puts "`#{CV::MadSkills.languages}`"
+  f.puts ''
 
-puts ''
-puts '## Message Queues'
-puts "`#{CV::MadSkills.message_queues}`"
+  f.puts '## Frameworks'
+  f.puts "`#{CV::MadSkills.frameworks}`"
+  f.puts ''
+
+  f.puts '## Datastores'
+  f.puts "`#{CV::MadSkills.datastores}`"
+
+  f.puts ''
+  f.puts '## Message Queues'
+  f.puts "`#{CV::MadSkills.message_queues}`"
 
 
+  testing = CV::Testing.new
+  f.puts ''
+  f.puts '## Testing'
+  f.puts "`#{testing.mantra}`"
+  f.puts ''
+  f.puts "`#{testing.frameworks}`"
 
-
+}
