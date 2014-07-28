@@ -60,17 +60,17 @@ module CV
 
     def self.datastores
       # I can use all these datastores
-      stores = ['postgres 9.3', 'redis', 'mongo', 'mysql']
+      stores = ['Postgres 9.3', 'Redis', 'Mongo', 'Mysql']
 
       # However I have found that these two serve me the best
       # Also now that Postgres 9.3 has JSON blobs Mongo is beginning to become less useful (for my use cases anyways)
-      stores.select { |store| ['postgres', 'redis'].include?(store) }
+      stores.select { |store| ['Postgres 9.3', 'Redis'].include?(store) }
 
     end
 
     # Only have exposure to the one
     def self.message_queues
-      'rabbitMQ'
+      'RabbitMQ'
 
     end
 

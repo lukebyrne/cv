@@ -20,10 +20,10 @@
 `Sinatra, Rails, AngularJS, ExpressJS`
 
 ## Datastores
-`redis`
+`Postgres 9.3, Redis`
 
 ## Message Queues
-`rabbitMQ`
+`RabbitMQ`
 
 ## Testing
 `As close to 100% test coverage as possible is my mantra, and I am pretty pedantic about coding conventions.`
