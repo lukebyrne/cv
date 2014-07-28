@@ -111,7 +111,7 @@ module CV
       {
         company:  'TestScreening.com',
         industry: 'Video Audience Metrics',
-        roles:    'Founder Senior Web Dev',
+        roles:    'Founder / Lead Web Dev',
         when:     {
           from: 'July 2013',
           to: Time.now
@@ -180,6 +180,6 @@ open('README.md', 'a') { |f|
 
   f.puts ''
   f.puts '## Contact'
-  f.puts "`me at luke byrne dot com` will find me "
+  f.puts "`me at luke byrne dot com` will find me or "
   f.puts "`@melukebyrne` via Twitter"
 }
