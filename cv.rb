@@ -164,9 +164,9 @@ open('README.md', 'a') { |f|
   testing = CV::Testing.new
   f.puts ''
   f.puts '## Testing'
-  f.puts "#{testing.mantra}"
+  f.puts "`#{testing.mantra}`"
   f.puts ''
-  testing.frameworks.each{ |framework| f.puts "`#{framework}`, " }
+  f.puts "`#{testing.frameworks.join(', ')}`"
 
   f.puts ''
   f.puts '## Experience'
@@ -180,6 +180,6 @@ open('README.md', 'a') { |f|
 
   f.puts ''
   f.puts '## Contact'
-  f.puts "`me at luke byrne dot com` will find me or "
+  f.puts "`me at luke byrne dot com` will find me "
   f.puts "`@melukebyrne` via Twitter"
 }
