@@ -148,7 +148,7 @@ open('README.md', 'a') { |f|
   f.puts '# Skills'
 
   f.puts '## Languages'
-  f.puts "```json"
+  f.puts "```javascript"
   f.puts CV::MadSkills.languages.to_json
   f.puts "```"
   f.puts ''
@@ -173,7 +173,7 @@ open('README.md', 'a') { |f|
 
   f.puts ''
   f.puts '## Experience'
-  f.puts "```json"
+  f.puts "```javascript"
   f.puts CV::Experience.roles.to_json
   f.puts "```"
 }
