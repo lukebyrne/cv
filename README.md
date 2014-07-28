@@ -13,7 +13,18 @@
 # Skills
 ## Languages
 ```javascript
-{"expert":["ruby","javascript"],"proficient":["php"],"beginner":["golang"]}
+{
+  "expert": [
+    "ruby",
+    "javascript"
+  ],
+  "proficient": [
+    "php"
+  ],
+  "beginner": [
+    "golang"
+  ]
+}
 ```
 
 ## Frameworks
@@ -32,5 +43,24 @@
 
 ## Experience
 ```javascript
-[{"company":"Shift72.com","industry":"Video On Demand","roles":"Senior Web Dev","when":{"from":"Feb 2013","to":"2014-07-28 23:17:47 +0100"}},{"company":"TestScreening.com","industry":"Video Audience Metrics","roles":"Founder Senior Web Dev","when":{"from":"July 2013","to":"2014-07-28 23:17:47 +0100"}}]
+[
+  {
+    "company": "Shift72.com",
+    "industry": "Video On Demand",
+    "roles": "Senior Web Dev",
+    "when": {
+      "from": "Feb 2013",
+      "to": "2014-07-28 23:19:51 +0100"
+    }
+  },
+  {
+    "company": "TestScreening.com",
+    "industry": "Video Audience Metrics",
+    "roles": "Founder Senior Web Dev",
+    "when": {
+      "from": "July 2013",
+      "to": "2014-07-28 23:19:51 +0100"
+    }
+  }
+]
 ```
