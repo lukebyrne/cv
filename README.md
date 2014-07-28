@@ -1,6 +1,5 @@
 # Goal
-
-      `If this README.md is a little lite for you, jump into the cv.rb that creates this file. You may enjoy some of the code or comments.`
+`If this README.md is a little lite for you, jump into the cv.rb that creates this file. You may enjoy some of the code or comments.`
 
       My goal is to secure a short to medium term contract working in either AngularJS, Sinatra / Ruby on Rails.
 

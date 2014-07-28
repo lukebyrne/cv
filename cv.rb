@@ -4,10 +4,13 @@ module CV
 
   class Goal
 
-    def self.output
-      <<-END
+    def self.addendum
+      '`If this README.md is a little lite for you, jump into the cv.rb that creates this file. You may enjoy some of the code or comments.`'
+    end
 
-      `If this README.md is a little lite for you, jump into the cv.rb that creates this file. You may enjoy some of the code or comments.`
+    def self.output
+
+      <<-END
 
       My goal is to secure a short to medium term contract working in either AngularJS, Sinatra / Ruby on Rails.
 
@@ -110,6 +113,7 @@ File.open('README.md', 'w') {|file| file.truncate(0) }
 open('README.md', 'a') { |f|
 
   f.puts '# Goal'
+  f.puts CV::Goal.addendum
   f.puts CV::Goal.output
   f.puts ''
 
