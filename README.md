@@ -50,16 +50,16 @@
     "roles": "Senior Web Dev",
     "when": {
       "from": "Feb 2013",
-      "to": "2014-07-28 23:31:36 +0100"
+      "to": "2014-07-28 23:37:35 +0100"
     }
   },
   {
     "company": "TestScreening.com",
     "industry": "Video Audience Metrics",
-    "roles": "Founder Senior Web Dev",
+    "roles": "Founder / Lead Web Dev",
     "when": {
       "from": "July 2013",
-      "to": "2014-07-28 23:31:36 +0100"
+      "to": "2014-07-28 23:37:35 +0100"
     }
   }
 ]
@@ -69,5 +69,5 @@
 Please read the TODO notes in the code
 
 ## Contact
-`me at luke byrne dot com` will find me 
+`me at luke byrne dot com` will find me or 
 `@melukebyrne` via Twitter
