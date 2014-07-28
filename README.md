@@ -37,9 +37,14 @@
 `RabbitMQ`, its the best one right?
 
 ## Testing
-`As close to 100% test coverage as possible is my mantra, and I am pretty pedantic about coding conventions.`
+As close to 100% test coverage as possible is my mantra, and I am pretty pedantic about coding conventions.
 
-`RSpec, FactoryGirl, SimpleCov, Karma, Protractor, Istanbul`
+`RSpec`, 
+`FactoryGirl`, 
+`SimpleCov`, 
+`Karma`, 
+`Protractor`, 
+`Istanbul`, 
 
 ## Experience
 ```json
@@ -50,7 +55,7 @@
     "roles": "Senior Web Dev",
     "when": {
       "from": "Feb 2013",
-      "to": "2014-07-28 23:26:41 +0100"
+      "to": "2014-07-28 23:30:40 +0100"
     }
   },
   {
@@ -59,7 +64,7 @@
     "roles": "Founder Senior Web Dev",
     "when": {
       "from": "July 2013",
-      "to": "2014-07-28 23:26:41 +0100"
+      "to": "2014-07-28 23:30:40 +0100"
     }
   }
 ]
@@ -69,5 +74,5 @@
 Please read the TODO notes in the code
 
 ## Contact
-`me at luke byrne dot com` will find me
+`me at luke byrne dot com` will find me or 
 `@melukebyrne` via Twitter
