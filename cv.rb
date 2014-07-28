@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'json'
+
 module CV
 
   class Goal
@@ -120,15 +122,17 @@ open('README.md', 'a') { |f|
   f.puts '# Skills'
 
   f.puts '## Languages'
-  f.puts "`#{CV::MadSkills.languages}`"
+  f.puts "```json"
+  f.puts CV::MadSkills.languages.to_json
+  f.puts "```"
   f.puts ''
 
   f.puts '## Frameworks'
-  f.puts "`#{CV::MadSkills.frameworks}`"
+  f.puts "`#{CV::MadSkills.frameworks.join(', ')}`"
   f.puts ''
 
   f.puts '## Datastores'
-  f.puts "`#{CV::MadSkills.datastores}`"
+  f.puts "`#{CV::MadSkills.datastores.join(', ')}`"
 
   f.puts ''
   f.puts '## Message Queues'
@@ -140,6 +144,6 @@ open('README.md', 'a') { |f|
   f.puts '## Testing'
   f.puts "`#{testing.mantra}`"
   f.puts ''
-  f.puts "`#{testing.frameworks}`"
+  f.puts "`#{testing.frameworks.join(', ')}`"
 
 }

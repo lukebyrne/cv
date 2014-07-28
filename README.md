@@ -12,13 +12,15 @@
 
 # Skills
 ## Languages
-`{:expert=>["ruby", "javascript"], :proficient=>["php"], :beginner=>["golang"]}`
+```json
+{"expert":["ruby","javascript"],"proficient":["php"],"beginner":["golang"]}
+```
 
 ## Frameworks
-`["Sinatra", "Rails", "AngularJS", "ExpressJS"]`
+`Sinatra, Rails, AngularJS, ExpressJS`
 
 ## Datastores
-`["redis"]`
+`redis`
 
 ## Message Queues
 `rabbitMQ`
@@ -26,4 +28,4 @@
 ## Testing
 `As close to 100% test coverage as possible is my mantra, and I am pretty pedantic about coding conventions.`
 
-`["RSpec", "FactoryGirl", "SimpleCov", "Karma", "Protractor"]`
+`RSpec, FactoryGirl, SimpleCov, Karma, Protractor`
